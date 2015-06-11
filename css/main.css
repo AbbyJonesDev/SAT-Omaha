@@ -1,0 +1,138 @@
+/*
+Color Theme on Adobe Color:
+https://color.adobe.com/My-Color-Theme-color-theme-6232115/
+*/
+
+/* 
+BASE STYLES 
+*/
+html * {
+  box-sizing: border-box;
+}
+
+body {
+  border: .3em solid #19558C;
+  font: normal 100% "Lucida Bright",Georgia,serif;
+}
+
+main {
+  padding: .5em;
+}
+
+h1, h1 > a, h1 > a:visited {
+  color: #19558C;
+  font-size: 1.7em;
+  text-decoration: none;
+}
+
+h1::first-letter {
+  font-size: 1.8em;
+  vertical-align: middle;
+  text-shadow: 3px 3px 1px #CBE5FD;
+}
+
+
+h2, a > h2 {
+  color: #206CB2;
+  font-size: 1.5em;
+}
+
+h3, a > h3 {
+  color: #2D9AFF;
+  font-size: 1.3em;
+}
+
+p {
+  font-size: 1em;
+}
+
+p a {
+  color: #19558C;
+}
+
+/*
+CATEGORY AND SUBCATEGORY STYLES
+*/
+ul.categories {
+  list-style: none;
+}
+ul.categories li {  
+  margin-bottom: .3em;
+}
+ul.categories a {
+  text-decoration: none;
+  color: #206CB2;
+  font-size: 1.3em;
+}
+ul.subcategories {
+  list-style: none;
+}
+ul.subcategories li {  
+  margin-bottom: .2em;
+}
+ul.subcategories a {
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #2D9AFF;
+}
+
+
+/* 
+HEADER STYLES
+*/
+header {
+  /*display: table;*/
+  /*border-bottom: .2em solid #19558C;*/
+  width: 100%;
+}
+
+header h1 {
+  /*display: table-cell;*/
+  /*max-width: 70%;*/
+  /*padding: .2em .4em;*/
+  text-align: center;
+}
+
+header h1::first-letter {
+  /*vertical-align: middle;*/
+  font-size: 1.8em;
+  text-shadow: 3px 3px 1px #CBE5FD;
+}
+
+#menu-button, #menu-button:visited {
+  /*display: table-cell;*/
+  /*vertical-align: middle;*/
+  /*width: 20%;*/
+  /*height: 100%;*/
+  /*margin-right: 0;*/
+  /*padding: 0 .8em;*/
+  display: block;
+  width: 100%;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  border: .2em solid #19558C;
+  background-color: #CBE5FD;
+  font-size: 1.2em;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*
+FOOTER STYLES
+*/
+footer {
+  background-color: #19558C;
+  color: white;
+  text-align: center;
+  padding: .5em;
+}
+
+/*
+HOMEPAGE STYLES
+*/
+#homepage img {
+  width: 96%;
+  height: auto;
+  margin: 1% 2%;
+  border: .2em solid #19558C;
+}
